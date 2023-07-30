@@ -11,7 +11,6 @@ Then, install Python-RVO2 trajectory simulator.
 ```
 git clone https://github.com/sybrenstuvel/Python-RVO2.git
 cd Python-RVO2
-pip install -r requirements.txt
 python setup.py build
 python setup.py install
 cd ..
