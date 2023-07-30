@@ -2,10 +2,21 @@
 The source code for POSHGNN (ICDE 2024).
 
 ## Environment
+First, create conda environment by the provided yml file.
 ```
 conda env create -f environment.yml
 conda activate mr_rec
 ```
+Then, install Python-RVO2 trajectory simulator.
+```
+git clone https://github.com/sybrenstuvel/Python-RVO2.git
+cd Python-RVO2
+pip install -r requirements.txt
+python setup.py build
+python setup.py install
+cd ..
+```
+If there is any issue during the process of installing RVO2, please visit the GitHub repo. of Python-RVO2 to check it.
 
 ## Run
 Please run the following script based on the provided toy dataset (`dataset/example.csv`):

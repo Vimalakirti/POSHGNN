@@ -169,7 +169,6 @@ dependencies:
     - mpmath==1.2.1
     - pandas==1.3.5
     - pyqt5-sip==12.11.0
-    - pyrvo2==0.0.0
     - pytz==2023.3
     - torch-geometric-temporal==0.54.0
 prefix: /home/poshgnn/anaconda3/envs/mr_rec
